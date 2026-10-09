@@ -1,0 +1,45 @@
+2026-10-07 14:35:03,320 - app.main - INFO - ============================================================
+2026-10-07 14:35:03,320 - app.main - INFO - InsightAPI starting up
+2026-10-07 14:35:03,320 - app.main - INFO - ============================================================
+2026-10-07 14:39:51,342 - app.main - INFO - ============================================================
+2026-10-07 14:39:51,342 - app.main - INFO - InsightAPI starting up
+2026-10-07 14:39:51,342 - app.main - INFO - ============================================================
+2026-10-07 14:42:25,388 - app.main - INFO - ============================================================
+2026-10-07 14:42:25,388 - app.main - INFO - InsightAPI starting up
+2026-10-07 14:42:25,388 - app.main - INFO - ============================================================
+2026-10-07 15:31:41,272 - app.main - INFO - ============================================================
+2026-10-07 15:31:41,272 - app.main - INFO - InsightAPI starting up
+2026-10-07 15:31:41,272 - app.main - INFO - ============================================================
+2026-10-07 15:32:05,509 - app.main - INFO - ============================================================
+2026-10-07 15:32:05,509 - app.main - INFO - InsightAPI starting up
+2026-10-07 15:32:05,509 - app.main - INFO - ============================================================
+2026-10-07 15:32:18,796 - app.main - INFO - ============================================================
+2026-10-07 15:32:18,796 - app.main - INFO - InsightAPI starting up
+2026-10-07 15:32:18,796 - app.main - INFO - ============================================================
+2026-10-07 15:35:26,314 - app.main - INFO - ============================================================
+2026-10-07 15:35:26,314 - app.main - INFO - InsightAPI starting up
+2026-10-07 15:35:26,314 - app.main - INFO - ============================================================
+2026-10-07 15:39:49,007 - app.utils.rate_limit - INFO - Rate Limit check passed for ahmed: 1/10
+2026-10-07 15:39:49,007 - app.main - INFO - summarize | user=ahmed | model=qwen2.5:1.5b | len=6
+2026-10-07 15:39:53,741 - openai._base_client - INFO - Retrying request in 0.442427 seconds (retry 1 of 2)
+2026-10-07 15:39:58,242 - openai._base_client - INFO - Retrying request in 0.899357 seconds (retry 2 of 2)
+2026-10-07 15:40:03,194 - app.services.llm - ERROR - LLM call failed | model=qwen2.5:1.5b | error=Connection error.
+2026-10-07 15:40:37,623 - app.main - INFO - ============================================================
+2026-10-07 15:40:37,623 - app.main - INFO - InsightAPI starting up
+2026-10-07 15:40:37,623 - app.main - INFO - ============================================================
+2026-10-07 15:43:17,087 - app.main - INFO - ============================================================
+2026-10-07 15:43:17,094 - app.main - INFO - InsightAPI starting up
+2026-10-07 15:43:17,094 - app.main - INFO - ============================================================
+2026-10-07 15:44:33,593 - app.utils.rate_limit - INFO - Rate Limit check passed for ahmed: 1/10
+2026-10-07 15:44:33,593 - app.main - INFO - summarize | user=ahmed | model=qwen2.5:7b | len=20
+2026-10-07 15:44:37,720 - openai._base_client - INFO - Retrying request in 0.408094 seconds (retry 1 of 2)
+2026-10-07 15:44:42,202 - openai._base_client - INFO - Retrying request in 0.856658 seconds (retry 2 of 2)
+2026-10-07 15:44:47,139 - app.services.llm - ERROR - LLM call failed | model=qwen2.5:7b | error=Connection error.
+2026-10-07 15:45:12,922 - app.utils.rate_limit - INFO - Rate Limit check passed for ahmed: 2/10
+2026-10-07 15:45:12,923 - app.main - INFO - summarize | user=ahmed | model=qwen2.5:7b | len=20
+2026-10-07 15:45:31,625 - httpx2 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-07 15:45:31,638 - app.services.llm - INFO - LLM ok | model=qwen2.5:7b | out_len=114
+2026-10-07 15:47:15,694 - app.utils.rate_limit - INFO - Rate Limit check passed for ahmed: 1/10
+2026-10-07 15:47:15,695 - app.main - INFO - generate | user=ahmed | model=qwen2.5:7b | temp=0.70
+2026-10-07 15:47:20,085 - httpx2 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-07 15:47:20,086 - app.services.llm - INFO - LLM ok | model=qwen2.5:7b | out_len=781
